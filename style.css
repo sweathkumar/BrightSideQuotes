@@ -1,0 +1,90 @@
+:root{
+    --lightPrimary: #fca311;
+    --lightSecondary: #001d3d;
+}
+.header{
+    background-color: var(--lightPrimary);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+.logo{
+    color: var(--lightSecondary);
+}
+.mode{
+    border: none;
+    background-color: var(--lightSecondary);
+    border-radius: 10px;
+}
+.main{
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2458.jpg?t=st=1720971589~exp=1720975189~hmac=4f84c723bfea7f59304e4ea2420e324c46d2e0ea4f3183839fbf68edeca6496b&w=1380);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    background-color: var(--lightSecondary);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.text-on{
+    color: var(--lightSecondary);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #ffd166, #ffc300, #ffd60a, #f77f00);
+box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.63);
+
+}
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.color-8{
+    color: var(--lightSecondary);
+}
+.footer{
+    background-color: var(--lightSecondary);
+}
+li{
+    list-style: none;
+}
+.links{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    color: white;
+}
+
+/* test  */
