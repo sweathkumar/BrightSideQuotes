@@ -3,22 +3,23 @@
     --lightSecondary: #001d3d;
 }
 .header{
-    background-color: var(--lightPrimary);
+    background-color: var(--lightSecondary);
     box-shadow: 0px 5px 5px rgb(0, 0, 0);
 }
 .logo{
-    color: var(--lightSecondary);
+    color: var(--lightPrimary);
 }
 .mode{
     border: none;
-    background-color: var(--lightSecondary);
+    background-color: var(--lightPrimary);
     border-radius: 10px;
 }
 .main{
-    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2458.jpg?t=st=1720971589~exp=1720975189~hmac=4f84c723bfea7f59304e4ea2420e324c46d2e0ea4f3183839fbf68edeca6496b&w=1380);
+    /* background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2458.jpg?t=st=1720971589~exp=1720975189~hmac=4f84c723bfea7f59304e4ea2420e324c46d2e0ea4f3183839fbf68edeca6496b&w=1380);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #fff;
 }
 .box{
     background-color: var(--lightSecondary);
